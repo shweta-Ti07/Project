@@ -7,7 +7,6 @@ if(isset($_SESSION['email']) && isset($_SESSION['login_time'])) {
     header("Location: welcome.php");
     exit();
 }
-
 include 'connection.php'; // Include the connection script
 
 // Check if the form is submitted
